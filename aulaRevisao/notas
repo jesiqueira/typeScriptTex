@@ -1,0 +1,18 @@
+npm install -g typescript
+tsc -v
+---------executar----
+tsc nome_do_arquivo
+
+---Executar----
+node js/exemplo_01.js 
+
+-------Criar package.json--------
+npm init
+
+-------Criar tsconfig.json---------
+npx tsc --init
+
+--------Executar typescript e colocar em uma pasta que está configurado no tsconfig -> outDir---------------
+execute> tsc
+obs.: se executar tsc nome do arquivo ele vai colocar no mesmo diretorio que está o arquivo e não na pasta configurada no outDir.
+
